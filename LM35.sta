@@ -1,0 +1,74 @@
+
+ROM used: 2218 (27%)
+          2220 (27%) including unused fragments
+
+          1 Average locations per line
+          5 Average locations per statement
+
+RAM used: 17 (5%) at main() level
+          41 (11%) worst case
+
+Stack used: 6 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  161   102  24  LM35.c
+  411     0   0  C:\Program Files (x86)\PICC\devices\16F887.h
+  249    88  21  C:\Program Files (x86)\PICC\drivers\lcd.h
+ 2104   238  56  C:\Program Files (x86)\PICC\drivers\math.h
+----- -----
+ 2925   428 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     63   3  10             @FLT
+0     31   1   2             @ITOF
+0    204   9  14             @DIVFF
+ Inline       16             @ADDFF
+0    117   5  13             @MULFF
+0     21   1   1             @delay_ms2
+0      8   0   0             @const211
+0     58   3   2   594  4.3  lcd_init
+ Inline        3   620  3.8  lcd_read_byte
+0     49   2   2   204  3.2  lcd_read_nibble
+0     87   4   3   313  3.4  lcd_send_byte
+0     43   2   1   336  1.9  lcd_send_nibble
+0     35   2   4   335  5.5  lcd_gotoxy
+0     37   2   1   272  4.1  lcd_putc
+0     18   1   1    78  2.3  Button1
+0    384  17   1  1397  4.8  Celius
+0     17   1   0             @const223
+ Inline        5             @FTOSD
+0     66   3  13             @DIV3232
+0    231  10  13             @PRINTF_L32D_209FPFPF
+0      7   0   0             @const233
+0     17   1   0             @const235
+0     13   1   0             @const237
+0    464  21   4   394  5.3  Fahrenheit
+0     15   1   0             @const239
+0     21   1   0             @const240
+0     36   2   1   149  2.2  BUTTON_3
+1    172   8   2   662  3.8  MAIN
+
+Program metrics:
+    Functions               12
+    Statements              428
+    Comments                504
+    Volume (V)              8529
+    Difficilty (D)          43.8
+    Effort to implement (E) 373302
+    Time to implement (T)   5 hours, 46 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   21
+    Maintainability (MI)    50
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF  2042  2  
+00800-00FFF   172  1876  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
